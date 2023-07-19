@@ -1,0 +1,23 @@
+#+STARTUP: inlineimages
+
+[[file:./images/emacs.svg]]
+
+* *IMPORTANT BINDINGS*
+|---------+------------------------+-------------------------------------------|
+| M-x     | [[elisp:(amx)][amx]]                    | Prompt for emacs programs                 |
+| SPC f f | [[elisp:(counsel-find-file)][counsel-find-file]]      | Find file in current working directory    |
+| SPC f b | [[elisp:(counsel-switch-buffer)][counsel-switch-buffer]]  | Switch to buffer from a list of buffers   |
+| SPC f c | [[elisp:(config-find-file)][config-find-file]]       | Find file in config directory (.emacss.d) |
+| SPC TAB | [[elisp:(switch-last-buffer)][switch-last-buffer]]     | Switch between the last two buffers       |
+| SPC f l | [[elisp:(counsel-grep-or-swiper)][counsel-grep-or-swiper]] | Find line in current buffer               |
+|---------+------------------------+-------------------------------------------|
+
+* *LEADER MAPS*
+|-------+-------------|
+| SPC f | Find        |
+| SPC m | Magit       |
+| SPC ! | Flycheck    |
+| SPC c | Compilation |
+| SPC w | Window      |
+|-------+-------------|
+
