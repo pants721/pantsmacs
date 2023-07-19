@@ -78,4 +78,8 @@ Does what it says on the box
 Notes:
 - Want to use emacs for sys files
 
+## [projectile](https://github.com/bbatsov/projectile)
+Project managment
 
+Notes:
+- I am tired of (x-major-mode starting in project root "~")
