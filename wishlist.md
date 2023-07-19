@@ -54,3 +54,9 @@ Keeps ~/.emacs.d clean
 Notes:
 - I like keeping emacs clean so this is very intriguing
 
+## [projectile](https://github.com/bbatsov/projectile)
+Project managment
+
+Notes:
+- I am tired of (x-major-mode starting in project root "~")
+
