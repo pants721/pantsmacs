@@ -54,3 +54,28 @@ Keeps ~/.emacs.d clean
 Notes:
 - I like keeping emacs clean so this is very intriguing
 
+## [evil-mc](https://github.com/gabesoft/evil-mc)
+Multi-cursor
+
+Notes:
+- I've used it before, I've just been too lazy to implement it
+
+## [web-mode](https://github.com/fxbois/web-mode)
+Frontend shit
+
+Notes:
+- I'll install this on the cursed day I have to do frontend development
+
+## org
+org
+
+Notes:
+- I need to actually learn org-mode
+
+## [sudo-edit](https://github.com/nflath/sudo-edit)
+Does what it says on the box
+
+Notes:
+- Want to use emacs for sys files
+
+

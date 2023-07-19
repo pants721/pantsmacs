@@ -16,7 +16,8 @@
 
 (require 'init-evil)
 (require 'init-which-key)
-(require 'init-ivy)
+;; (require 'init-ivy) ;; Deprecated
+(require 'init-vertico)
 (require 'init-amx)
 (require 'init-magit)
 (require 'init-themes)

@@ -14,7 +14,7 @@ Its core tenets are as follows:
 + **Visual clarity.** A good looking editor doesn't have the brightest colors or 
 the most icons, but that a good looking editor is visually consistent; 
 informative, but not overwhelming; and functional without sacrificing any visual 
-aestethics.
+aestethics. Nyan cat is an exception.
 + **Keybind brevity.** Important keybinds should be easy. `SPC cc` is recompile
 and `SPC cC` is compile, because you use recompile 10x more than compile, so it 
 should be easier to type.

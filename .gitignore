@@ -5,3 +5,5 @@ recentf
 transient/
 .saves/
 auto-save-list/
+bookmarks
+custom.el

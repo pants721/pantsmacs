@@ -4,6 +4,9 @@
 
 (use-package magit)
 
+(use-package magit-delta
+  :after magit
+  :hook (magit-mode . magit-delta-mode))
 
 
 (provide 'init-magit)

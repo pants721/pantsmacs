@@ -70,10 +70,15 @@
 
 (find-prefix
   :states 'normal
-  "f" 'counsel-find-file
-  "b" 'counsel-switch-buffer
-  "l" 'counsel-grep-or-swiper ;; l for "find-line"
-  "L" 'counsel-grep-or-swiper-backward
+  ;; ;; Ivy binds
+  ;; "f" 'counsel-find-file
+  ;; "b" 'counsel-switch-buffer
+  ;; "l" 'counsel-grep-or-swiper ;; l for "find-line"
+  ;; "L" 'counsel-grep-or-swiper-backward
+  ;; Vertico binds
+  "f" 'find-file
+  "b" 'consult-buffer
+  "l" 'consult-line
   "c" 'config-find-file
   "P" 'personal-config-file
   "o" 'org-find-file)
@@ -146,6 +151,16 @@
   "d" 'dired
   "D" 'ranger)
 
+
+
+;; General help
+
+(general-create-definer help-prefix
+  :prefix "SPC h")
+
+(help-prefix
+  :states 'normal
+  "t" 'consult-theme)
 
 
 (provide 'init-keybinds)
