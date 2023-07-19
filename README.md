@@ -11,7 +11,7 @@ mv ~/.emacs.d ~/.emacs.d.bak
 git clone https://github.com/pants721/pantsmacs.git ~/.emacs.d
 ```
 
-To uninstall just mv `~/.emacs.d.bak` back. You can figure it our, I'm not your dad.
+To uninstall just mv `~/.emacs.d.bak` back. You can figure it out, I'm not your dad.
 
 ## Major change log
 
