@@ -79,6 +79,7 @@
   "f" 'find-file
   "b" 'consult-buffer
   "l" 'consult-line
+  "r" 'consult-recent-file
   "c" 'config-find-file
   "P" 'personal-config-file
   "o" 'org-find-file)
