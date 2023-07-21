@@ -11,21 +11,10 @@
 (use-package doom-themes)
 ;; (use-package color-theme-sanityinc-solarized)
 ;; (use-package kaolin-themes)
-;; (use-package doom-themes)
-;; (use-package reykjavik-theme)
-;; (use-package naysayer-theme)
-;; (use-package monokai-theme)
-;; (use-package stimmung-themes)
-;; (use-package tao-theme)
-;; (use-package almost-mono-themes)
-(use-package quasi-monochrome-theme)
-;; (use-package sexy-monochrome-theme)
 
-(load-theme 'doom-Iosvkem t)
-;; (load-theme 'modus-vivendi t)
-;; (load-theme 'ef-dark t)
-;; (load-theme 'tao-yin t)
+(load-theme 'reykjavik t)
 
+;; TODO: Move elsewhere
 (use-package highlight-indent-guides
   :config
   (setq highlight-indent-guides-method 'character)

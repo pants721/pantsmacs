@@ -26,8 +26,8 @@
 (setq backup-by-copying t):
 (electric-pair-mode)
 (setq c-basic-offset 4) ;; Indent
-(global-display-fill-column-indicator-mode) ;; Fill Column
-(setq-default fill-column 80)
+;; (global-display-fill-column-indicator-mode) ;; Fill Column
+;; (setq-default fill-column 80)
 (add-hook 'c-mode-hook (lambda () (c-toggle-comment-style -1)))
 (setq compile-command "./build.sh && ./out")
 (setq-default indent-tabs-mode nil)
@@ -37,13 +37,14 @@
 
 ;; Visual stuff
 
-(set-frame-font "iosevka term 16" nil t)
+(set-frame-font "iosevka term 14" nil t)
 ;; (set-frame-font "source code pro 14" nil t)
 ;; (set-frame-font "hack 14" nil t)
 ;; (set-frame-font "jetbrainsmono 14" nil t)
 (setq evil-insert-state-cursor '(box)) ;; Insert state box cursor
 (setq max-mini-window-height 3)
-
+;; (add-hook 'after-init-hook '(lambda () (when window-system (set-frame-size (selected-frame) 113 32))))
+(when window-system (set-frame-size (selected-frame) 160 40))
 
 
 (provide 'init-user)
