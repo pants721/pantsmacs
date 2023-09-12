@@ -12,11 +12,13 @@
 
 (require 'init-elpa)
 
+(use-package no-littering)
+
 (require 'init-dashboard)
 
 (require 'init-evil)
 (require 'init-which-key)
-;; (require 'init-ivy) ;; Deprecated
+(require 'init-ivy) ;; Deprecated
 (require 'init-vertico)
 (require 'init-amx)
 (require 'init-magit)

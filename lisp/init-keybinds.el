@@ -2,8 +2,7 @@
 ;;; Commentary:
 ;;; Code:
 
-;; NOTE: This is not the file that defines the bulk of my keybinds.
-;; That file is init-general.el as I like leader key chords and general has amazing support for them
+
 
 (require 'init-general)
 
@@ -39,9 +38,15 @@
   (interactive)
   (switch-to-buffer (other-buffer (current-buffer) 1)))
 
+(defun scratch-buffer ()
+  "Opens a scratch buffer."
+  (interactive)
+  (switch-to-buffer (make-temp-name "scratch-")))
+
 (leader-prefix
   :states 'normal
-  "<tab>" 'switch-last-buffer)
+  "<tab>" 'switch-last-buffer
+  ";"     'scratch-buffer)
 
 
 
@@ -134,9 +139,26 @@
 
 (window-prefix
   :states 'normal
+  "h" 'evil-window-left
+  "j" 'evil-window-down
+  "k" 'evil-window-top
+  "l" 'evil-window-right
   "s" 'evil-window-split
   "v" 'evil-window-vsplit
   "c" 'evil-window-delete)
+
+
+
+;; Buffer ocntrols
+
+(general-create-definer buffer-prefix
+  :prefix "SPC b")
+
+(buffer-prefix
+  :states 'normal
+  "n" 'evil-next-buffer
+  "p" 'evil-prev-buffer
+  "d" 'evil-delete-buffer)
 
 
 

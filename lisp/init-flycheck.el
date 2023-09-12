@@ -6,13 +6,13 @@
   :config
   (global-flycheck-mode))
 
-(use-package flycheck-pos-tip
-  :if window-system
-  :config
-  (flycheck-pos-tip-mode))
+;; (use-package flycheck-pos-tip
+;;   :if window-system
+;;   :config
+;;   (flycheck-pos-tip-mode))
 
 (use-package flycheck-inline
-  :if (not window-system)
+  ;; :if (not window-system)
   :config
   (global-flycheck-inline-mode))
 
